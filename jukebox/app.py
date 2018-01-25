@@ -9,7 +9,7 @@ import os
 def init():
     global app, ask, library
 
-    library_path = '/home/plex/shares/k/Music/Music'
+    library_path = '/Users/johndpope/Music/iTunes/iTunes\ Media/Music/'
 
     app = Flask(__name__)
     ask = Ask(app, '/')
